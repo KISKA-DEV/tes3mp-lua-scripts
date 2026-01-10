@@ -36,8 +36,8 @@ dreamsleeve.TEXT = {
     -- Main menu text
     MAIN_MENU_TITLE = "Welcome to Dreamsleeve.",
     MAIN_MENU_DESCRIPTION = "Here you can share thoughts with other participants.",
-    DIVE_INTO_DREAMSLEEVE = "Transmit into Dreamsleeve",
-    SEND_MEMOSPORE = "Send memospore",
+    DIVE_INTO_DREAMSLEEVE = "Dive into Dreamsleeve",
+    SEND_MEMOSPORE = "Transmit memospore",
     CLOSE = "Close",
 
     -- Messages list text
