@@ -223,7 +223,7 @@ function dreamsleeve.sendMessage(pid, title, content)
         author = playerName,
         title = title,
         content = content,
-        timestamp = os.date("%d-%m-%Y %H:%M:%S"),
+        timestamp = os.date("%Y-%m-%d %H:%M:%S"),
         formatted = formattedMessage
     })
 
