@@ -256,7 +256,7 @@ function dreamsleeve.showDreamList(pid)
     for i = 1, displayCount do
         local entry = logData[i]
         -- Extract date and time from timestamp (format "YYYY-MM-DD HH:MM:SS")
-        local date_part = string.sub(entry.timestamp, 6, 7) .. "." .. string.sub(entry.timestamp, 9, 10)  -- MM.DD
+        local date_part = string.sub(entry.timestamp, 9, 10) .. "." .. string.sub(entry.timestamp, 6, 7)  -- DD.MM
         local time_part = string.sub(entry.timestamp, 12, 16)  -- HH:MM
         -- Form 2 lines for each message
         listText = listText .. "[" .. date_part .. "] " .. time_part .. " - " .. entry.author .. "\n"
